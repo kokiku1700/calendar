@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>달력</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="wrap">
+        <div id="calendar">
+            <div id="calHeader">
+                <h2 class="year"></h2>
+                <h1 class="month"></h1>
+                <h2 class="monthEng"></h2>
+            </div>
+            <div class="calDate">
+                <span class="sun dateHead">일요일</span>
+                <span class="mon dateHead">월요일</span>
+                <span class="tue dateHead">화요일</span>
+                <span class="wed dateHead">수요일</span>
+                <span class="thu dateHead">목요일</span>
+                <span class="fri dateHead">금요일</span>
+                <span class="sat dateHead">토요일</span>
+            </div>
+            <div id="calBody"></div>
+            <div class="arrow-wrap">
+                <span class="leftArrow"><img src="./img/left.png"></span>
+                <span class="rightArrow"><img src="./img/right.png"></span>
+            </div>
+        </div>
+    </div>
+    <script src="./js/calendar.js"></script>
+</body>
+</html>
